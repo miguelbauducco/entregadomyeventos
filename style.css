@@ -13,6 +13,8 @@ form{
     font-style: italic;
     font-size: 40px;
     padding: 20px;
+    font-family: 'Yanone Kaffeesatz';
+    font-style: italic;
 }
 
 .speaker-form{
