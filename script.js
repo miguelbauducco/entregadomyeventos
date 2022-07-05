@@ -3,7 +3,7 @@ const contacto = [];
 const formulario = document.getElementById("formulario");
 const nombre= document.getElementById("full-name");
 const correo = document.getElementById("email");
-const consulta = document.getElementsByTagName("textarea");
+const consulta = document.getElementById("abstract");
 
 formulario.addEventListener("submit", (event) => {
 

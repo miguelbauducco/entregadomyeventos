@@ -1,3 +1,6 @@
+body{
+    padding: 20px;
+}
 
 form{
     display: flex;
@@ -9,6 +12,7 @@ form{
     justify-content: center;
     font-style: italic;
     font-size: 40px;
+    padding: 20px;
 }
 
 .speaker-form{
