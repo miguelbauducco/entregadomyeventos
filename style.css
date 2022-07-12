@@ -163,8 +163,5 @@ footer{
         font-size: 30px;
     }
 
-    .navbar{
-        display: flex;
-        justify-content: center;
-    }
+
 }
