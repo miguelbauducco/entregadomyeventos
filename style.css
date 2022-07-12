@@ -1,11 +1,48 @@
 body{
     padding: 20px;
+    background-color: white;
+    background-image: repeating-linear-gradient(white, #59bfff 170%);
 }
 
 form{
     display: flex;
     flex-direction: column;
 }
+
+.pindex {
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-family: 'Yanone Kaffeesatz';
+}
+
+.h1-ind {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin:5px;
+    font-style: italic;
+    font-size: 70px;
+    font-family: 'Yanone Kaffeesatz';
+}
+
+.img-head {
+    display: flex;
+    justify-content: center;
+}
+
+footer ul{
+    list-style-type: none;
+}
+    
+footer{
+    margin:20px;
+}
+
+.carousel-inner{
+    border: solid 5px black;
+}
+
 
 .h2-msj{
     display: flex;
@@ -15,6 +52,17 @@ form{
     padding: 20px;
     font-family: 'Yanone Kaffeesatz';
     font-style: italic;
+}
+
+.navbar {
+    border: 2px solid black;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .speaker-form{
@@ -103,5 +151,20 @@ form{
 @media screen and (max-width:576px) {
     .h2-msj{
         font-size: 30px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .h1-ind{
+        font-size: 40px;
+    }
+
+    .pindex{
+        font-size: 30px;
+    }
+
+    .navbar{
+        display: flex;
+        justify-content: center;
     }
 }

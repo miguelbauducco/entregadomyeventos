@@ -1,12 +1,11 @@
 const contacto = [];
 
-const formulario = document.getElementById("formulario");
-const nombre= document.getElementById("full-name");
-const correo = document.getElementById("email");
-const consulta = document.getElementById("abstract");
+let formulario = document.getElementById("formulario");
+let nombre= document.getElementById("full-name");
+let correo = document.getElementById("email");
+let consulta = document.getElementById("abstract");
 
 formulario.addEventListener("submit", (event) => {
-
 
     event.preventDefault();
 
@@ -31,6 +30,11 @@ const contactos = {
 
 contacto.push(contactos);
 
-console.log(contacto);
+console.dir(contacto);
+
+setTimeout(function() {
+    window.location.replace('index.html')
+    
+}, 2000);
 
 });
